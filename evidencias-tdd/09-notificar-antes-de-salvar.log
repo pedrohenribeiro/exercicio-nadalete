@@ -1,0 +1,278 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mbr.edu.checkout:checkout-alunos[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding checkout-alunos 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:properties[m [1m(expor-propriedades-das-dependencias)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdd/Downloads/projeto-alunos/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:compile[m [1m(default-compile)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdd/Downloads/projeto-alunos/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:testCompile[m [1m(default-testCompile)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.5.3:test[m [1m(default-test)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running br.edu.checkout.[1mServicoCheckoutTest[m
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m22[m, [1;31mFailures: [0;1;31m4[m, Errors: 0, Skipped: 0, Time elapsed: 0.678 s[1;31m <<< FAILURE![m -- in br.edu.checkout.[1mServicoCheckoutTest[m
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveManterCompraQuandoNotificacaoFalhar -- Time elapsed: 0.044 s <<< FAILURE!
+org.mockito.exceptions.verification.VerificationInOrderFailure: 
+
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    59.70
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveManterCompraQuandoNotificacaoFalhar(ServicoCheckoutTest.java:182)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=3, total=59.70, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+
+	at br.edu.checkout.ServicoCheckoutTest.deveManterCompraQuandoNotificacaoFalhar(ServicoCheckoutTest.java:182)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(int, String, String)[1] -- Time elapsed: 0.020 s <<< FAILURE!
+org.mockito.exceptions.verification.VerificationInOrderFailure: 
+
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    19.90
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=1, total=19.90, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+
+	at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(int, String, String)[2] -- Time elapsed: 0.006 s <<< FAILURE!
+org.mockito.exceptions.verification.VerificationInOrderFailure: 
+
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    59.70
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=3, total=59.70, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+
+	at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(int, String, String)[3] -- Time elapsed: 0.004 s <<< FAILURE!
+org.mockito.exceptions.verification.VerificationInOrderFailure: 
+
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    0.015
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=3, total=0.015, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+
+	at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveConfirmarCompraComTotalExato:103 
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    19.90
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=1, total=19.90, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveConfirmarCompraComTotalExato:103 
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    59.70
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=3, total=59.70, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveConfirmarCompraComTotalExato:103 
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    0.015
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraComTotalExato(ServicoCheckoutTest.java:103)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=3, total=0.015, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveManterCompraQuandoNotificacaoFalhar:182 
+Verification in order failure
+Wanted but not invoked:
+notificador.enviarConfirmacao(
+    "ana@email.com",
+    "pedido-73",
+    59.70
+);
+-> at br.edu.checkout.ServicoCheckoutTest.deveManterCompraQuandoNotificacaoFalhar(ServicoCheckoutTest.java:182)
+Wanted anywhere AFTER following interaction:
+pedidoRepository.salvar(
+    PedidoConfirmado[clienteId=cliente-1, email=ana@email.com, sku=SKU-1, quantidade=3, total=59.70, transacaoId=tx-42]
+);
+-> at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:52)
+[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 22, Failures: 4, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.245 s
+[[1;34mINFO[m] Finished at: 2026-11-09T20:30:03-03:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:3.5.3:test[m [1m(default-test)[m on project [36mcheckout-alunos[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mSee /home/bdd/Downloads/projeto-alunos/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mSee dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

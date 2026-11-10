@@ -1,0 +1,899 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mbr.edu.checkout:checkout-alunos[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding checkout-alunos 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.8.1:properties[m [1m(expor-propriedades-das-dependencias)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdd/Downloads/projeto-alunos/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:compile[m [1m(default-compile)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdd/Downloads/projeto-alunos/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.0:testCompile[m [1m(default-testCompile)[m @ [36mcheckout-alunos[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1madded or removed source files[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug release 21] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.5.3:test[m [1m(default-test)[m @ [36mcheckout-alunos[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.pom
+Progress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.pom (3.7 kB at 7.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.pom
+Progress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.pom (3.5 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.pom
+Progress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.pom (4.0 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.pom
+Progress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.pom (3.6 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.pom
+Progress (1): 4.1 kBProgress (1): 7.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.pom (7.8 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.pom
+Progress (1): 4.1 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.pom (5.0 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.pom (1.7 kB at 3.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar
+Progress (1): 3.2/172 kBProgress (1): 5.9/172 kBProgress (1): 8.6/172 kBProgress (1): 11/172 kB Progress (1): 14/172 kBProgress (1): 17/172 kBProgress (1): 21/172 kBProgress (1): 25/172 kBProgress (1): 28/172 kBProgress (1): 32/172 kBProgress (1): 36/172 kBProgress (1): 40/172 kBProgress (1): 44/172 kBProgress (1): 48/172 kBProgress (1): 52/172 kBProgress (1): 56/172 kBProgress (1): 61/172 kBProgress (1): 65/172 kBProgress (1): 69/172 kBProgress (1): 73/172 kBProgress (1): 77/172 kBProgress (1): 81/172 kBProgress (1): 85/172 kBProgress (1): 89/172 kBProgress (1): 93/172 kBProgress (1): 97/172 kBProgress (1): 101/172 kBProgress (1): 106/172 kBProgress (1): 110/172 kBProgress (1): 114/172 kBProgress (1): 118/172 kBProgress (1): 122/172 kBProgress (1): 126/172 kBProgress (1): 130/172 kBProgress (2): 130/172 kB | 3.3/14 kBProgress (2): 134/172 kB | 3.3/14 kBProgress (2): 134/172 kB | 6.0/14 kBProgress (2): 134/172 kB | 8.8/14 kBProgress (2): 134/172 kB | 11/14 kB Progress (2): 134/172 kB | 14 kB   Progress (3): 134/172 kB | 14 kB | 3.3/26 kBProgress (3): 134/172 kB | 14 kB | 6.0/26 kBProgress (3): 134/172 kB | 14 kB | 8.8/26 kBProgress (3): 134/172 kB | 14 kB | 12/26 kB Progress (3): 134/172 kB | 14 kB | 14/26 kBProgress (3): 134/172 kB | 14 kB | 17/26 kBProgress (3): 134/172 kB | 14 kB | 20/26 kBProgress (4): 134/172 kB | 14 kB | 20/26 kB | 0/2.9 MBProgress (4): 134/172 kB | 14 kB | 22/26 kB | 0/2.9 MBProgress (4): 134/172 kB | 14 kB | 25/26 kB | 0/2.9 MBProgress (4): 134/172 kB | 14 kB | 25/26 kB | 0/2.9 MBProgress (4): 134/172 kB | 14 kB | 26 kB | 0/2.9 MB   Progress (4): 138/172 kB | 14 kB | 26 kB | 0/2.9 MBProgress (4): 138/172 kB | 14 kB | 26 kB | 0/2.9 MBProgress (4): 142/172 kB | 14 kB | 26 kB | 0/2.9 MBProgress (4): 147/172 kB | 14 kB | 26 kB | 0/2.9 MBProgress (4): 147/172 kB | 14 kB | 26 kB | 0.1/2.9 MBProgress (4): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MBProgress (5): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 3.2/312 kBProgress (5): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 5.9/312 kBProgress (5): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 8.6/312 kBProgress (5): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 11/312 kB Progress (5): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 14/312 kBProgress (5): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 17/312 kBProgress (5): 151/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 20/312 kBProgress (5): 155/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 20/312 kBProgress (5): 155/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 22/312 kBProgress (5): 159/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 22/312 kBProgress (5): 159/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 25/312 kBProgress (5): 163/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 25/312 kBProgress (5): 163/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 28/312 kBProgress (5): 167/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 28/312 kBProgress (5): 167/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 30/312 kBProgress (5): 171/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 30/312 kBProgress (5): 171/172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 33/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 33/312 kB    Progress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 36/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 39/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 41/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 44/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 47/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 50/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 52/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 55/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 55/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 55/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 55/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 59/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 63/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 67/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 71/312 kBProgress (5): 172 kB | 14 kB | 26 kB | 0.1/2.9 MB | 76/312 kB                                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar (14 kB at 62 kB/s)
+Progress (4): 172 kB | 26 kB | 0.1/2.9 MB | 80/312 kB                                                     Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar
+Progress (4): 172 kB | 26 kB | 0.1/2.9 MB | 80/312 kBProgress (4): 172 kB | 26 kB | 0.1/2.9 MB | 84/312 kBProgress (4): 172 kB | 26 kB | 0.1/2.9 MB | 86/312 kBProgress (4): 172 kB | 26 kB | 0.1/2.9 MB | 90/312 kBProgress (4): 172 kB | 26 kB | 0.1/2.9 MB | 94/312 kBProgress (4): 172 kB | 26 kB | 0.1/2.9 MB | 94/312 kBProgress (4): 172 kB | 26 kB | 0.1/2.9 MB | 94/312 kBProgress (4): 172 kB | 26 kB | 0.1/2.9 MB | 94/312 kBProgress (4): 172 kB | 26 kB | 0.2/2.9 MB | 94/312 kB                                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar (172 kB at 707 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar (26 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+Progress (2): 0.2/2.9 MB | 98/312 kBProgress (2): 0.2/2.9 MB | 102/312 kBProgress (2): 0.2/2.9 MB | 106/312 kBProgress (2): 0.2/2.9 MB | 110/312 kBProgress (2): 0.2/2.9 MB | 115/312 kBProgress (2): 0.2/2.9 MB | 119/312 kBProgress (2): 0.2/2.9 MB | 123/312 kBProgress (2): 0.2/2.9 MB | 123/312 kBProgress (2): 0.2/2.9 MB | 126/312 kBProgress (2): 0.2/2.9 MB | 130/312 kBProgress (2): 0.2/2.9 MB | 130/312 kBProgress (2): 0.2/2.9 MB | 134/312 kBProgress (2): 0.2/2.9 MB | 138/312 kBProgress (3): 0.2/2.9 MB | 138/312 kB | 3.2/169 kBProgress (3): 0.2/2.9 MB | 142/312 kB | 3.2/169 kBProgress (3): 0.2/2.9 MB | 142/312 kB | 3.2/169 kBProgress (3): 0.2/2.9 MB | 147/312 kB | 3.2/169 kBProgress (3): 0.2/2.9 MB | 147/312 kB | 7.3/169 kBProgress (3): 0.2/2.9 MB | 147/312 kB | 11/169 kB Progress (4): 0.2/2.9 MB | 147/312 kB | 11/169 kB | 3.3/118 kBProgress (4): 0.2/2.9 MB | 147/312 kB | 15/169 kB | 3.3/118 kBProgress (4): 0.2/2.9 MB | 147/312 kB | 15/169 kB | 3.3/118 kBProgress (5): 0.2/2.9 MB | 147/312 kB | 15/169 kB | 3.3/118 kB | 3.3/8.2 kBProgress (5): 0.2/2.9 MB | 151/312 kB | 15/169 kB | 3.3/118 kB | 3.3/8.2 kBProgress (5): 0.2/2.9 MB | 151/312 kB | 15/169 kB | 3.3/118 kB | 6.0/8.2 kBProgress (5): 0.2/2.9 MB | 151/312 kB | 15/169 kB | 6.0/118 kB | 6.0/8.2 kBProgress (5): 0.2/2.9 MB | 151/312 kB | 20/169 kB | 6.0/118 kB | 6.0/8.2 kBProgress (5): 0.2/2.9 MB | 151/312 kB | 20/169 kB | 6.0/118 kB | 8.2 kB    Progress (5): 0.2/2.9 MB | 155/312 kB | 20/169 kB | 6.0/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 155/312 kB | 20/169 kB | 6.0/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 155/312 kB | 24/169 kB | 6.0/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 155/312 kB | 24/169 kB | 8.8/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 155/312 kB | 28/169 kB | 8.8/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 159/312 kB | 28/169 kB | 8.8/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 159/312 kB | 28/169 kB | 11/118 kB | 8.2 kB Progress (5): 0.2/2.9 MB | 159/312 kB | 28/169 kB | 11/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 159/312 kB | 28/169 kB | 14/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 163/312 kB | 28/169 kB | 14/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 163/312 kB | 28/169 kB | 17/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 163/312 kB | 32/169 kB | 17/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 163/312 kB | 32/169 kB | 17/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 163/312 kB | 32/169 kB | 20/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 167/312 kB | 32/169 kB | 20/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 167/312 kB | 36/169 kB | 20/118 kB | 8.2 kBProgress (5): 0.2/2.9 MB | 167/312 kB | 36/169 kB | 22/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 167/312 kB | 36/169 kB | 22/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 171/312 kB | 36/169 kB | 22/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 171/312 kB | 40/169 kB | 22/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 171/312 kB | 40/169 kB | 25/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 175/312 kB | 40/169 kB | 25/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 175/312 kB | 44/169 kB | 25/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 175/312 kB | 44/169 kB | 28/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 179/312 kB | 44/169 kB | 28/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 179/312 kB | 44/169 kB | 31/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 183/312 kB | 44/169 kB | 31/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 183/312 kB | 48/169 kB | 31/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 183/312 kB | 48/169 kB | 34/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 187/312 kB | 48/169 kB | 34/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 187/312 kB | 52/169 kB | 34/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 187/312 kB | 52/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 187/312 kB | 56/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 192/312 kB | 56/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 192/312 kB | 61/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 196/312 kB | 61/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 200/312 kB | 61/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 200/312 kB | 65/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 204/312 kB | 65/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 204/312 kB | 69/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 204/312 kB | 73/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 208/312 kB | 73/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 208/312 kB | 77/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 212/312 kB | 77/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 212/312 kB | 81/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 212/312 kB | 85/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 212/312 kB | 89/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 212/312 kB | 93/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 212/312 kB | 97/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 212/312 kB | 97/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 97/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 101/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 106/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 110/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 114/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 118/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 122/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 126/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 216/312 kB | 126/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 220/312 kB | 126/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 220/312 kB | 130/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 224/312 kB | 130/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 228/312 kB | 130/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 233/312 kB | 130/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 237/312 kB | 130/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 237/312 kB | 134/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 241/312 kB | 134/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 241/312 kB | 138/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 245/312 kB | 138/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 245/312 kB | 142/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 142/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 147/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 151/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 155/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 159/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 163/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 167/169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 249/312 kB | 169 kB | 36/118 kB | 8.2 kB    Progress (5): 0.3/2.9 MB | 253/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 257/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 261/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 265/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 269/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 273/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 278/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 282/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 286/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 290/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 294/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 298/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 302/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 306/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 310/312 kB | 169 kB | 36/118 kB | 8.2 kBProgress (5): 0.3/2.9 MB | 312 kB | 169 kB | 36/118 kB | 8.2 kB    Progress (5): 0.3/2.9 MB | 312 kB | 169 kB | 41/118 kB | 8.2 kB                                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar (8.2 kB at 21 kB/s)
+Progress (4): 0.3/2.9 MB | 312 kB | 169 kB | 45/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 49/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 53/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 57/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 61/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 65/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 69/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 69/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 73/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 77/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 77/118 kBProgress (4): 0.3/2.9 MB | 312 kB | 169 kB | 77/118 kB                                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar (169 kB at 404 kB/s)
+Progress (3): 0.4/2.9 MB | 312 kB | 77/118 kBProgress (3): 0.4/2.9 MB | 312 kB | 77/118 kBProgress (3): 0.4/2.9 MB | 312 kB | 77/118 kBProgress (3): 0.4/2.9 MB | 312 kB | 77/118 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar (312 kB at 715 kB/s)
+Progress (2): 0.4/2.9 MB | 81/118 kBProgress (2): 0.4/2.9 MB | 86/118 kBProgress (2): 0.4/2.9 MB | 86/118 kBProgress (2): 0.4/2.9 MB | 90/118 kBProgress (2): 0.4/2.9 MB | 94/118 kBProgress (2): 0.4/2.9 MB | 98/118 kBProgress (2): 0.4/2.9 MB | 98/118 kBProgress (2): 0.4/2.9 MB | 102/118 kBProgress (2): 0.4/2.9 MB | 106/118 kBProgress (2): 0.4/2.9 MB | 110/118 kBProgress (2): 0.4/2.9 MB | 114/118 kBProgress (2): 0.4/2.9 MB | 118 kB    Progress (2): 0.5/2.9 MB | 118 kBProgress (2): 0.5/2.9 MB | 118 kBProgress (2): 0.5/2.9 MB | 118 kBProgress (2): 0.5/2.9 MB | 118 kBProgress (2): 0.5/2.9 MB | 118 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar (118 kB at 233 kB/s)
+Progress (1): 0.5/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.9/2.9 MBProgress (1): 2.9 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar (2.9 MB at 2.0 MB/s)
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.pom
+Progress (1): 4.1 kBProgress (1): 5.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.pom (5.2 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.3/surefire-providers-3.5.3.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.3/surefire-providers-3.5.3.pom (2.5 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.pom
+Progress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.pom (3.1 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom (3.2 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom
+Progress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom (2.8 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom (3.0 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar
+Progress (1): 4.1/27 kBProgress (1): 7.4/27 kBProgress (1): 11/27 kB Progress (1): 16/27 kBProgress (2): 16/27 kB | 3.4/256 kBProgress (2): 16/27 kB | 7.5/256 kBProgress (2): 16/27 kB | 12/256 kB Progress (2): 16/27 kB | 16/256 kBProgress (2): 20/27 kB | 16/256 kBProgress (2): 20/27 kB | 20/256 kBProgress (2): 24/27 kB | 20/256 kBProgress (2): 27 kB | 20/256 kB   Progress (2): 27 kB | 24/256 kBProgress (2): 27 kB | 28/256 kBProgress (3): 27 kB | 28/256 kB | 3.2/152 kBProgress (3): 27 kB | 32/256 kB | 3.2/152 kBProgress (3): 27 kB | 36/256 kB | 3.2/152 kBProgress (4): 27 kB | 36/256 kB | 3.2/152 kB | 4.1/18 kBProgress (4): 27 kB | 36/256 kB | 7.3/152 kB | 4.1/18 kBProgress (4): 27 kB | 36/256 kB | 7.3/152 kB | 7.4/18 kBProgress (4): 27 kB | 36/256 kB | 11/152 kB | 7.4/18 kB Progress (4): 27 kB | 36/256 kB | 11/152 kB | 11/18 kB Progress (4): 27 kB | 36/256 kB | 11/152 kB | 16/18 kBProgress (4): 27 kB | 40/256 kB | 11/152 kB | 16/18 kBProgress (4): 27 kB | 40/256 kB | 11/152 kB | 18 kB   Progress (4): 27 kB | 44/256 kB | 11/152 kB | 18 kBProgress (4): 27 kB | 44/256 kB | 15/152 kB | 18 kBProgress (4): 27 kB | 44/256 kB | 20/152 kB | 18 kBProgress (4): 27 kB | 48/256 kB | 20/152 kB | 18 kBProgress (4): 27 kB | 48/256 kB | 24/152 kB | 18 kBProgress (4): 27 kB | 48/256 kB | 28/152 kB | 18 kBProgress (4): 27 kB | 53/256 kB | 28/152 kB | 18 kBProgress (4): 27 kB | 57/256 kB | 28/152 kB | 18 kBProgress (4): 27 kB | 57/256 kB | 32/152 kB | 18 kBProgress (4): 27 kB | 57/256 kB | 36/152 kB | 18 kBProgress (4): 27 kB | 57/256 kB | 40/152 kB | 18 kBProgress (4): 27 kB | 57/256 kB | 44/152 kB | 18 kBProgress (4): 27 kB | 61/256 kB | 44/152 kB | 18 kBProgress (4): 27 kB | 65/256 kB | 44/152 kB | 18 kBProgress (4): 27 kB | 65/256 kB | 48/152 kB | 18 kBProgress (4): 27 kB | 65/256 kB | 52/152 kB | 18 kBProgress (4): 27 kB | 69/256 kB | 52/152 kB | 18 kBProgress (4): 27 kB | 69/256 kB | 56/152 kB | 18 kBProgress (4): 27 kB | 69/256 kB | 61/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 61/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 65/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 69/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 73/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 77/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 81/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 85/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 89/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 93/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 97/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 101/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 106/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 110/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 114/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 118/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 122/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 126/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 130/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 134/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 138/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 142/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 147/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 151/152 kB | 18 kBProgress (4): 27 kB | 73/256 kB | 152 kB | 18 kB    Progress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 3.3/208 kBProgress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 6.0/208 kBProgress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 8.2/208 kBProgress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 11/208 kB Progress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 14/208 kBProgress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 18/208 kBProgress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 22/208 kBProgress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 26/208 kBProgress (5): 27 kB | 73/256 kB | 152 kB | 18 kB | 30/208 kBProgress (5): 27 kB | 77/256 kB | 152 kB | 18 kB | 30/208 kBProgress (5): 27 kB | 81/256 kB | 152 kB | 18 kB | 30/208 kBProgress (5): 27 kB | 85/256 kB | 152 kB | 18 kB | 30/208 kBProgress (5): 27 kB | 89/256 kB | 152 kB | 18 kB | 30/208 kBProgress (5): 27 kB | 89/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 94/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 98/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 102/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 106/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 110/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 114/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 118/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 122/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 126/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 130/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 134/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 139/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 143/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 147/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 151/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 155/256 kB | 152 kB | 18 kB | 34/208 kBProgress (5): 27 kB | 155/256 kB | 152 kB | 18 kB | 38/208 kBProgress (5): 27 kB | 155/256 kB | 152 kB | 18 kB | 40/208 kBProgress (5): 27 kB | 159/256 kB | 152 kB | 18 kB | 40/208 kBProgress (5): 27 kB | 163/256 kB | 152 kB | 18 kB | 40/208 kBProgress (5): 27 kB | 167/256 kB | 152 kB | 18 kB | 40/208 kBProgress (5): 27 kB | 171/256 kB | 152 kB | 18 kB | 40/208 kBProgress (5): 27 kB | 171/256 kB | 152 kB | 18 kB | 45/208 kBProgress (5): 27 kB | 175/256 kB | 152 kB | 18 kB | 45/208 kBProgress (5): 27 kB | 175/256 kB | 152 kB | 18 kB | 49/208 kBProgress (5): 27 kB | 180/256 kB | 152 kB | 18 kB | 49/208 kBProgress (5): 27 kB | 184/256 kB | 152 kB | 18 kB | 49/208 kBProgress (5): 27 kB | 188/256 kB | 152 kB | 18 kB | 49/208 kBProgress (5): 27 kB | 188/256 kB | 152 kB | 18 kB | 53/208 kBProgress (5): 27 kB | 188/256 kB | 152 kB | 18 kB | 57/208 kBProgress (5): 27 kB | 188/256 kB | 152 kB | 18 kB | 61/208 kBProgress (5): 27 kB | 188/256 kB | 152 kB | 18 kB | 65/208 kBProgress (5): 27 kB | 192/256 kB | 152 kB | 18 kB | 65/208 kBProgress (5): 27 kB | 196/256 kB | 152 kB | 18 kB | 65/208 kBProgress (5): 27 kB | 200/256 kB | 152 kB | 18 kB | 65/208 kBProgress (5): 27 kB | 200/256 kB | 152 kB | 18 kB | 69/208 kBProgress (5): 27 kB | 204/256 kB | 152 kB | 18 kB | 69/208 kBProgress (5): 27 kB | 204/256 kB | 152 kB | 18 kB | 73/208 kBProgress (5): 27 kB | 204/256 kB | 152 kB | 18 kB | 77/208 kBProgress (5): 27 kB | 204/256 kB | 152 kB | 18 kB | 81/208 kBProgress (5): 27 kB | 208/256 kB | 152 kB | 18 kB | 81/208 kBProgress (5): 27 kB | 212/256 kB | 152 kB | 18 kB | 81/208 kBProgress (5): 27 kB | 216/256 kB | 152 kB | 18 kB | 81/208 kBProgress (5): 27 kB | 220/256 kB | 152 kB | 18 kB | 81/208 kBProgress (5): 27 kB | 225/256 kB | 152 kB | 18 kB | 81/208 kB                                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.jar (27 kB at 193 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.jar (18 kB at 125 kB/s)
+Progress (3): 229/256 kB | 152 kB | 81/208 kBProgress (3): 233/256 kB | 152 kB | 81/208 kBProgress (3): 237/256 kB | 152 kB | 81/208 kBProgress (3): 241/256 kB | 152 kB | 81/208 kBProgress (3): 245/256 kB | 152 kB | 81/208 kBProgress (3): 249/256 kB | 152 kB | 81/208 kBProgress (3): 253/256 kB | 152 kB | 81/208 kBProgress (3): 256 kB | 152 kB | 81/208 kB    Progress (3): 256 kB | 152 kB | 85/208 kBProgress (3): 256 kB | 152 kB | 90/208 kB                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar (152 kB at 980 kB/s)
+Progress (2): 256 kB | 94/208 kBProgress (2): 256 kB | 98/208 kBProgress (2): 256 kB | 102/208 kBProgress (2): 256 kB | 106/208 kBProgress (2): 256 kB | 108/208 kBProgress (2): 256 kB | 112/208 kBProgress (2): 256 kB | 116/208 kBProgress (2): 256 kB | 120/208 kBProgress (2): 256 kB | 123/208 kBProgress (2): 256 kB | 127/208 kBProgress (2): 256 kB | 131/208 kBProgress (2): 256 kB | 135/208 kBProgress (2): 256 kB | 139/208 kBProgress (2): 256 kB | 143/208 kBProgress (2): 256 kB | 147/208 kBProgress (2): 256 kB | 152/208 kBProgress (2): 256 kB | 156/208 kBProgress (2): 256 kB | 160/208 kBProgress (2): 256 kB | 164/208 kBProgress (2): 256 kB | 168/208 kBProgress (2): 256 kB | 172/208 kBProgress (2): 256 kB | 176/208 kBProgress (2): 256 kB | 180/208 kBProgress (2): 256 kB | 184/208 kBProgress (2): 256 kB | 188/208 kBProgress (2): 256 kB | 193/208 kBProgress (2): 256 kB | 197/208 kBProgress (2): 256 kB | 201/208 kBProgress (2): 256 kB | 205/208 kBProgress (2): 256 kB | 208 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar (256 kB at 1.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar (208 kB at 872 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.pom (3.0 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.jar
+Progress (1): 4.1/223 kBProgress (1): 7.4/223 kBProgress (1): 11/223 kB Progress (1): 16/223 kBProgress (1): 20/223 kBProgress (1): 24/223 kBProgress (1): 28/223 kBProgress (1): 32/223 kBProgress (1): 36/223 kBProgress (1): 40/223 kBProgress (1): 44/223 kBProgress (1): 48/223 kBProgress (1): 52/223 kBProgress (1): 57/223 kBProgress (1): 61/223 kBProgress (1): 65/223 kBProgress (1): 69/223 kBProgress (1): 73/223 kBProgress (1): 77/223 kBProgress (1): 81/223 kBProgress (1): 85/223 kBProgress (1): 89/223 kBProgress (1): 93/223 kBProgress (1): 97/223 kBProgress (1): 102/223 kBProgress (1): 106/223 kBProgress (1): 110/223 kBProgress (1): 114/223 kBProgress (1): 118/223 kBProgress (1): 122/223 kBProgress (1): 126/223 kBProgress (1): 130/223 kBProgress (1): 134/223 kBProgress (1): 138/223 kBProgress (1): 142/223 kBProgress (1): 147/223 kBProgress (1): 151/223 kBProgress (1): 155/223 kBProgress (1): 159/223 kBProgress (1): 163/223 kBProgress (1): 167/223 kBProgress (1): 171/223 kBProgress (1): 175/223 kBProgress (1): 179/223 kBProgress (1): 183/223 kBProgress (1): 187/223 kBProgress (1): 192/223 kBProgress (1): 196/223 kBProgress (1): 200/223 kBProgress (1): 204/223 kBProgress (1): 208/223 kBProgress (1): 212/223 kBProgress (1): 216/223 kBProgress (1): 220/223 kBProgress (1): 223 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.jar (223 kB at 1.5 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running br.edu.checkout.[1mServicoCheckoutTest[m
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m15[m, [1;31mFailures: [0;1;31m15[m, Errors: 0, Skipped: 0, Time elapsed: 0.575 s[1;31m <<< FAILURE![m -- in br.edu.checkout.[1mServicoCheckoutTest[m
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[1] -- Time elapsed: 0.440 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[2] -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[3] -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[4] -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[5] -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[6] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[7] -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[8] -- Time elapsed: 0.006 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[9] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[10] -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[11] -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[12] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[13] -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(SolicitacaoCheckout)[14] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos(ServicoCheckoutTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarEntradaInvalidaSemEfeitos$1(ServicoCheckoutTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 44 more
+
+[[1;31mERROR[m] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoNulaSemConsultarColaboradores -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoNulaSemConsultarColaboradores(ServicoCheckoutTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+	at br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+	at br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarSolicitacaoNulaSemConsultarColaboradores$0(ServicoCheckoutTest.java:47)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarEntradaInvalidaSemEfeitos:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;31mERROR[m] [1;31m  ServicoCheckoutTest.deveRejeitarSolicitacaoNulaSemConsultarColaboradores:47 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 15, Failures: 15, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.462 s
+[[1;34mINFO[m] Finished at: 2026-11-09T20:23:11-03:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:3.5.3:test[m [1m(default-test)[m on project [36mcheckout-alunos[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mSee /home/bdd/Downloads/projeto-alunos/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mSee dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
